@@ -53,6 +53,7 @@ body {
   border: 1px solid #eee;
   padding: 0;
   flex-shrink: 0;
+  margin-left: 30%;
 }
 
 button {
@@ -81,4 +82,8 @@ button.cancel {
 
 .text {
   margin-bottom: 16px;  
+}
+
+.title {
+  display: flex;
 }
