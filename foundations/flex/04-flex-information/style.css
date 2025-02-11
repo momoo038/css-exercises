@@ -14,18 +14,16 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 32px;
 }
 .items {
   display: flex;
   justify-content: center;
   gap: 52px;
-  height: auto;
-  margin-top: 32px;
   flex-wrap: wrap;
 }
 
-.barberry, .chilli, .pepper, .saffron {
+.item {
   width: 200px;
   display: flex;
   flex-direction: column;
